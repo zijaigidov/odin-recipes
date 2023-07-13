@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  background-color: #fffbed;
+  font-family: 'Poppins', Verdana, sans;
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+.thumbnail {
+  width: auto;
+  height: 100px;
+}
+
+.description {
+  line-height: 1.5;
+}
+
+.center {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
