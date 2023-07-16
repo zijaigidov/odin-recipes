@@ -1,27 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+* {
+  line-height: 1.5;
+}
+
 body {
   background-color: #fffbed;
   font-family: 'Poppins', Verdana, sans;
 }
-
-header h1 {
+header {
+  width: 50%;
+  margin: 0 auto;
+}
+header > h1 {
   font-size: 32px;
 }
-
+header > img {
+  width: 100%;
+}
+main {
+  width: 50%;
+  margin: 12px auto 0 auto;
+}
+main ul {
+  list-style: none;
+}
 .thumbnail {
   width: auto;
-  height: 100px;
+  height: 125px;
+  border-radius: 10px;
 }
-
-.description {
-  line-height: 1.5;
+.thumbnail:hover {
+  opacity: 0.5;
 }
-
 .center {
   text-align: center;
 }
-
-nav ul {
-  list-style: none;
+.inline-block {
+  display: inline-block;
 }
